@@ -40,7 +40,7 @@ class ArticleController extends AbstractFOSRestController
      * @Rest\Get("/api/articless")
      * @Rest\View(serializerGroups={"article"})
      */
-    public function getApiArticlesById(){
+    public function getApiArticlesSerialized(){
         $articles = $this->articleRepository->findAll();
         return $this->view($articles);
     }
@@ -48,16 +48,18 @@ class ArticleController extends AbstractFOSRestController
     /* Find a article by NAME */
 
     /**
-     * @Rest\Get("/api/articles/{name}")
+     * @Rest\Get("/api/articles/{id}", name="app_article_by_id")
      */
-    public function getApiArticlesByName(Article $articles){
-        return $this->view($articles);
+    public function getApiArticlesById(Article $article){
+        return $this->render('article/show.html.twig',[
+            'article' => $article
+        ]);
     }
 
     /* PATCH an article [description] */
 
     /**
-     * @Rest\Patch("/api/articles/{name}")
+     * @Rest\Patch("/api/articles/{id}")
      */
     public function patchApiArticle(Article $article, Request $request){
         $attributeName = ['description' => 'setDescription'];
@@ -111,12 +113,13 @@ class ArticleController extends AbstractFOSRestController
     /* DELETE an article */
 
     /**
-     * @Rest\Delete("/api/articles/{name}")
+     * @Rest\Delete("/api/articles/{id}", name="app_article_delete")
+     *
      */
     public function deleteApiArticle(Article $article){
         $this->getDoctrine()->getManager()->remove($article);
         $this->getDoctrine()->getManager()->flush();
-        return $this->view($article);
+        return $this->render('home/index.html.twig');
     }
 }
 

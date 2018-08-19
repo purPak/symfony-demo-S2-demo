@@ -3,7 +3,6 @@
 {% block title %}Hello ArticleController!{% endblock %}
 
 {% block body %}
-articles
     {% for a in articles%}
 
         <div class="jumbotron">
@@ -16,7 +15,7 @@ articles
                 </p>
             {%   endfor %}
             <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Voir plus</a>
+                <a class="btn btn-primary btn-lg" href="{{ path('app_article_by_id', {id : a.id}) }}" role="button">Voir plus</a>
             </p>
         </div>
     {% endfor %}
