@@ -1,0 +1,17 @@
+# fixtures/article.yml
+
+App\Entity\Article:
+  aricle_{1..10}:
+    name: <name()>
+    description: <text()>
+    user: '@user'
+
+
+App\Entity\User:
+  user:
+    email: <email()>
+    firstname: <firstName()>
+    lastname: <lastName()>
+    apiKey: <firstName()>
+    password: <password()>
+    birthday: <dateTime( '-10 years', '-100 years')>
