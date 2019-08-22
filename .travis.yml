@@ -8,4 +8,4 @@ cache:
     - ./bin/.phpunit
 
 script:
-  - ./bin/phpunit
+  - bin/phpunit
