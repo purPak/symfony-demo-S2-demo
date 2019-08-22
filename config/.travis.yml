@@ -1,0 +1,11 @@
+language: php
+sudo: false
+
+cache:
+  yarn: true
+  directories:
+    - $HOME/.composer/cache/files
+    - ./bin/.phpunit
+
+script:
+  - ./bin/phpunit
