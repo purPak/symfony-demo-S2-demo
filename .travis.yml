@@ -2,4 +2,4 @@ language: php
 sudo: false
 
 script:
-  - bin/phpunit
+  - ./vendor/bin/phpunit
