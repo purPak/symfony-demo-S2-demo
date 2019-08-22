@@ -27,7 +27,7 @@ install:
   - cp .env.test.dist .env
   - composer install
   - php bin/console doctrine:database:create --env=prod
-  - php bin/console doctrine:schema:create --env=prod
+  - php bin/console doctrine:schema:update --env=prod
   - php bin/console doctrine:fixtures:load -n --env=prod
 
 # Run script
