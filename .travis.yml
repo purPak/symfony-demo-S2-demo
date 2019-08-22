@@ -25,6 +25,7 @@ before-install:
 # Create database, schema and fixtures
 install:
   - cp .env.test.dist .env
+  - cp .env.test.dist .env.test
   - composer install
   - php bin/console doctrine:database:create --env=test
   - php bin/console doctrine:schema:update --force --env=test
@@ -32,4 +33,4 @@ install:
 
 # Run script
 script:
-  - phpunit
+  - php bin/phpunit
