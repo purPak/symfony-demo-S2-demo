@@ -32,4 +32,4 @@ install:
 
 # Run script
 script:
-  - .bin/phpunit
+  - php bin/phpunit
