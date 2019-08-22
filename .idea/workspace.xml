@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c1d7e8-fff3-4b94-ac5e-4204c26b3174" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.env.test.dist" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/symfony-demo-s2-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-demo-s2-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/templates/article/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/UserControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony-demo-s2-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-demo-s2-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/fos_rest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/fos_rest.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/TokenAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/TokenAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/navbar.html.twig" afterDir="false" />
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +45,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/config/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/tests/UserControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
             </state>
           </provider>
         </entry>
@@ -42,7 +70,10 @@
       <find>nelmio_api_doc</find>
       <find>headers</find>
       <find>HTTP_X-AUTH-TOKEN</find>
+<<<<<<< HEAD
       <find>opcache</find>
+=======
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/var</dir>
@@ -55,6 +86,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/.env" />
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
         <option value="$PROJECT_DIR$/templates/home/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Repository/UserRepository.php" />
         <option value="$PROJECT_DIR$/src/Form/ArticleType.php" />
@@ -80,9 +115,12 @@
         <option value="$PROJECT_DIR$/src/Security/TokenAuthenticator.php" />
         <option value="$PROJECT_DIR$/.env.test" />
         <option value="$PROJECT_DIR$/tests/UserControllerTest.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.env.test.dist" />
         <option value="$PROJECT_DIR$/config/.travis.yml" />
+=======
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
       </list>
     </option>
   </component>
@@ -183,6 +221,9 @@
       <path value="$PROJECT_DIR$/vendor/nelmio/api-doc-bundle" />
       <path value="$PROJECT_DIR$/vendor/exsyst/swagger" />
       <path value="$PROJECT_DIR$/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -218,6 +259,32 @@
             <path>
               <item name="symfony-demo-s2-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-demo-s2-demo" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony-demo-s2-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-demo-s2-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony-demo-s2-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-demo-s2-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony-demo-s2-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-demo-s2-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony-demo-s2-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-demo-s2-demo" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -260,17 +327,29 @@
       <updated>1566200913802</updated>
       <workItem from="1566200915974" duration="3787000" />
       <workItem from="1566206792555" duration="57953000" />
+<<<<<<< HEAD
       <workItem from="1566421066379" duration="7279000" />
+=======
+      <workItem from="1566421066379" duration="4848000" />
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="69019000" />
+=======
+    <option name="totallyTimeSpent" value="66588000" />
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="752" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.21243942" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.21243942" />
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
       <window_info id="Structure" order="1" sideWeight="0.5011287" side_tool="true" weight="0.2536349" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -453,6 +532,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -475,6 +555,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
         <state relative-caret-position="352">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
@@ -549,6 +653,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
     <entry file="file://$PROJECT_DIR$/src/Security/TokenAuthenticator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-390">
@@ -579,6 +700,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.env.test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -611,6 +733,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/tests/UserControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+>>>>>>> 49950b1edcee5660717bea2a7bae55b32e21a198
         </state>
       </provider>
     </entry>
