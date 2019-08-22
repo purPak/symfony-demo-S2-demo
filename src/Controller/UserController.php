@@ -20,15 +20,6 @@ class UserController extends AbstractFOSRestController
         $this->userRepository = $userRepository;
     }
 
-    /* Find an user by EMAIL */
-
-    /**
-     * @Rest\Get("/api/users/{email}")
-     */
-    public function getApiUser(User $user){
-        return $this->view($user);
-    }
-
     /* Find ALL users */
 
     /**
@@ -39,14 +30,34 @@ class UserController extends AbstractFOSRestController
         return $this->view($users);
     }
 
+    /* Find an user by EMAIL */
+
+    /**
+     * @Rest\Get("/api/users/{email}")
+     */
+    public function getApiUser(User $user){
+        return $this->view($user);
+    }
+
     /* Post an user */
 
     /**
      * @Rest\Post("/api/users")
      * @ParamConverter("user", converter="fos_rest.request_body")
      */
-    public function postApiUser(User $user){
-         $this->getDoctrine()->getManager()->persist($user);
+    public function postApiUser(User $user, Request $request){
+
+        $user = new User();
+        $user->setLastname($request->get('lastname'));
+        $user->setFirstname($request->get('firstname'));
+        $user->setEmail($request->get('email'));
+        $user->setRoles($request->get('roles'));
+        $user->setApiKey($request->get('apiKey'));
+        $user->setApiKey($request->get('apiKey'));
+       // $user->setPassword($request->get('password'));
+
+        $this->getDoctrine()->getManager()->persist($user);
+        $this->getDoctrine()->getManager()->flush();
 
         return $this->view($user);
     }
