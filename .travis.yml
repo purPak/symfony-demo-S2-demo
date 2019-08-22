@@ -1,5 +1,10 @@
 language: php
-sudo: false
+php:
+  - '7.0'
+  - '7.1'
+  - nightly
+install:
+  - composer install --dev
 
 script:
   - ./vendor/bin/phpunit
